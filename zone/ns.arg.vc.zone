@@ -1,0 +1,5 @@
+$ORIGIN ns.arg.vc.
+$TTL 86400
+ns.arg.vc. 86400 IN SOA ns.arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
+ns.arg.vc. 86400 IN A 114.146.61.188
+

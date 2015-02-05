@@ -1,0 +1,30 @@
+$ORIGIN arg.vc.
+$TTL 86400
+;meta
+arg.vc. 86400 IN SOA ns.arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
+arg.vc. 86400 IN NS ns.arg.vc.
+arg.vc. 86400 IN NS ns2.arg.vc.
+arg.vc. 3600 IN A 114.146.61.188
+www.arg.vc. 86400 IN A 127.0.0.1
+;server
+srv000.arg.vc. 86400 IN A 153.121.56.91
+srv001.arg.vc. 3600 IN A 114.146.61.188
+srv002.arg.vc. 3600 IN A 114.146.61.188
+;cname
+srv00.arg.vc. 86400 IN CNAME srv000.arg.vc.
+srv01.arg.vc. 86400 IN CNAME srv001.arg.vc.
+srv02.arg.vc. 86400 IN CNAME srv002.arg.vc.
+;service
+dashboard.arg.vc. 86400 IN CNAME srv000.arg.vc.
+wiki.arg.vc. 86400 IN CNAME srv001.arg.vc.
+irc.arg.vc. 86400 IN CNAME srv001.arg.vc.
+;mx
+arg.vc. 86400 IN MX 20 alt1.aspmx.l.google.com.
+arg.vc. 86400 IN MX 20 alt2.aspmx.l.google.com.
+arg.vc. 86400 IN MX 10 aspmx.l.google.com.
+arg.vc. 86400 IN MX 30 aspmx2.googlemail.com.
+arg.vc. 86400 IN MX 30 aspmx3.googlemail.com.
+arg.vc. 86400 IN TXT "google-site-verification=MuQuq4eZySrgvVbM71OZR3wzlm_agxgz_h7kUHjFQhA"
+;anti
+anti.arg.vc. 86400 IN NS ns.anti.arg.vc.
+ns.anti.arg.vc. 86400 IN A 54.64.69.248
