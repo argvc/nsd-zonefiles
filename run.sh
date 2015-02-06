@@ -8,6 +8,7 @@ function start {
 
 function start_with_test {
     eval ${nsd_command} &
+    rake
 }
 
 function version {

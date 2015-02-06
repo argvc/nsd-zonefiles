@@ -2,14 +2,9 @@ FROM greyia/debian:wheezy
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -y && apt-get upgrade -y
-RUN apt-get install openssh-server -y
-RUN mkdir -p /root/.ssh/
-ADD authorized_keys /root/.ssh/authorized_keys
-RUN chmod 700 /root/.ssh/ && \
-    chmod 0600 /root/.ssh/authorized_keys && \
-    sed -i -e '/^UsePAM\s\+yes/d' /etc/ssh/sshd_config 
-
-EXPOSE 22
+RUN apt-get install ruby gem -y && \
+    gem install rake serverspec --no-rdoc --no-ri 
+RUN apt-get install netstat -y 
 # NSD3
 
 RUN apt-get install nsd3 -y 
@@ -21,6 +16,7 @@ RUN chmod 0777 /etc/nsd3/run.sh && \
     /usr/sbin/nsdc rebuild
 
 EXPOSE 53
+WORKDIR /etc/nsd3/
 # ENTRYPOINT ["/usr/sbin/nsd", "-d", "-c", "/etc/nsd3/nsd.conf"]
 ENTRYPOINT ["/etc/nsd3/run.sh"]
 CMD ["nsd"]
