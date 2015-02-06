@@ -4,7 +4,7 @@ describe package('nsd3') do
   it { should be_installed }
 end
 
-describe port(53) do
+describe port(54) do
   it { should be_listening }
 end
 
