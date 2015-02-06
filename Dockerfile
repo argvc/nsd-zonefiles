@@ -6,6 +6,7 @@ RUN apt-get install openssh-server -y
 RUN mkdir -p /root/.ssh/
 ADD authorized_keys /root/.ssh/authorized_keys
 RUN chmod 700 /root/.ssh/ && \
+    chmod 0600 /root/.ssh/authorized_keys && \
     sed -i -e '/^UsePAM\s\+yes/d' /etc/ssh/sshd_config 
 
 EXPOSE 22
