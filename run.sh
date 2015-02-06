@@ -7,6 +7,7 @@ function start {
 }
 
 function start_with_test {
+    nsd-checkconf  /etc/nsd3/nsd.conf
     eval ${nsd_command} &
     rake
 }
