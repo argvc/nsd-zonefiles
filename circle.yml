@@ -10,5 +10,4 @@ test:
     - docker build -t argvc/nsd .
   override:
     - docker run -i -t argvc/nsd test
-      timeout: 600
 
