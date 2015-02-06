@@ -1,0 +1,14 @@
+machine:
+  ruby:
+    version: 2.0.0
+  timezone: Asia/Tokyo
+  services:
+    - docker
+
+test:
+  pre:
+    - docker build -t argvc/nsd .
+  override:
+    - docker run -i -t argvc/nsd test
+      timeout: 600
+
