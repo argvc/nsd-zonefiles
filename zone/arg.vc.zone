@@ -18,13 +18,6 @@ srv02.arg.vc. 86400 IN CNAME srv002.arg.vc.
 dashboard.arg.vc. 86400 IN CNAME srv000.arg.vc.
 wiki.arg.vc. 86400 IN CNAME srv001.arg.vc.
 irc.arg.vc. 86400 IN CNAME srv001.arg.vc.
-;mx
-arg.vc. 86400 IN MX 20 alt1.aspmx.l.google.com.
-arg.vc. 86400 IN MX 20 alt2.aspmx.l.google.com.
-arg.vc. 86400 IN MX 10 aspmx.l.google.com.
-arg.vc. 86400 IN MX 30 aspmx2.googlemail.com.
-arg.vc. 86400 IN MX 30 aspmx3.googlemail.com.
-arg.vc. 86400 IN TXT "google-site-verification=MuQuq4eZySrgvVbM71OZR3wzlm_agxgz_h7kUHjFQhA"
 ;anti
 anti.arg.vc. 86400 IN NS ns.anti.arg.vc.
 ns.anti.arg.vc. 86400 IN A 54.64.69.248
