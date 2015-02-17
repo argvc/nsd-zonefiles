@@ -11,3 +11,9 @@ test:
   override:
     - docker run -i -t argvc/nsd test
 
+deployment:
+  staging:
+    branch: master
+    commands:
+    - sh deploy/master.sh
+
