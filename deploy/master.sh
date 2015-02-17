@@ -2,6 +2,6 @@
 
 docker login -u $DOCKER_HOST -p $DOCKER_PASS
 docker push argvc/nsd
-ssh $DEPLOY_HOST docker stop argvc/nsd
-ssh $DEPLOY_HOST docker pull argvc/nsd
-ssh $DEPLOY_HOST docker run argvc/nsd
+ssh $DEPLOY_HOST docker stop argvc/nsd -i ~/.ssh/deploy -l $DEPLOY_USER
+ssh $DEPLOY_HOST docker pull argvc/nsd -i ~/.ssh/deploy -l $DEPLOY_USER
+ssh $DEPLOY_HOST docker run argvc/nsd -i ~/.ssh/deploy -l $DEPLOY_USER
