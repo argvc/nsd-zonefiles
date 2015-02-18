@@ -1,9 +1,9 @@
 $ORIGIN arg.vc.
 $TTL 86400
 ;meta
-arg.vc. 86400 IN SOA ns.arg.vc. info.thun.ws. 2015021805 3600 900 604800 300
-arg.vc. 86400 IN NS ns.arg.vc.
-arg.vc. 86400 IN NS ns2.arg.vc.
+arg.vc. 86400 IN SOA arg.vc. info.thun.ws. 2015021805 3600 900 604800 300
+ns.arg.vc 3600 IN A 133.242.233.252
+ns2.arg.vc 3600 IN A 133.242.233.252
 arg.vc. 3600 IN A 114.146.61.188
 www.arg.vc. 86400 IN A 127.0.0.1
 ;server
