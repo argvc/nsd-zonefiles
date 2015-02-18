@@ -1,7 +1,9 @@
 $ORIGIN ctf.moe.
 $TTL 86400
 ;meta
-ctf.moe. 86400 IN SOA arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
+ctf.moe. 86400 IN SOA ns.arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
+ctf.moe. 86400 IN NS ns.arg.vc.
+ctf.moe. 86400 IN NS ns2.arg.vc.
 ctf.moe. 3600 IN A 114.159.128.253
 www.ctf.moe. 86400 IN A 127.0.0.1
 
