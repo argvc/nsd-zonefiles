@@ -1,9 +1,7 @@
 $ORIGIN elendia.net.
 $TTL 86400
 ;meta
-elendia.net. 86400 IN SOA ns.arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
-elendia.net. 86400 IN NS ns.arg.vc.
-elendia.net. 86400 IN NS ns2.arg.vc.
+elendia.net. 86400 IN SOA arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
 elendia.net. 3600 IN A 114.146.61.188
 www.elendia.net. 86400 IN A 127.0.0.1
 blog.elendia.net. 86400 IN CNAME elendia.net.
