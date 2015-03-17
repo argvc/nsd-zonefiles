@@ -3,6 +3,10 @@ import os
 import re
 import sys
 
+if len(sys.argv) == 1:
+  print 'Usage: python changeip.py beforeIP afterIP'
+  sys.exit(1)
+
 list= glob.glob('../zone/*.zone')
 for file in list:
  f = open(file, 'r')
@@ -13,7 +17,7 @@ for file in list:
      if line.find(sys.argv[1]) != -1:
        print file,lc 
        line = re.sub(sys.argv[1], sys.argv[2], line)
-       f2.write(line)
+     f2.write(line)
      lc = lc + 1
  finally:
    f.close()
