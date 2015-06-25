@@ -19,4 +19,4 @@ srv02.arg.vc. 86400 IN CNAME srv002.arg.vc.
 ;service
 wiki.arg.vc. 86400 IN CNAME srv001.arg.vc.
 irc.arg.vc. 86400 IN CNAME srv001.arg.vc.
-gitlab.arg.vc 86400 IN CNAME srv001.arg.vc.
+gitlab.arg.vc. 86400 IN CNAME srv001.arg.vc.
