@@ -20,3 +20,10 @@ srv02.arg.vc. 86400 IN CNAME srv002.arg.vc.
 wiki.arg.vc. 86400 IN CNAME srv001.arg.vc.
 irc.arg.vc. 86400 IN CNAME srv001.arg.vc.
 gitlab.arg.vc. 86400 IN CNAME srv001.arg.vc.
+;mail
+@ IN MX 1 ASPMX.L.GOOGLE.COM.
+@ IN MX 5 ALT1.ASPMX.L.GOOGLE.COM. 
+@ IN MX 5 ALT2.ASPMX.L.GOOGLE.COM. 
+@ IN MX 10 ASPMX2.GOOGLEMAIL.COM. 
+@ IN MX 10 ASPMX3.GOOGLEMAIL.COM. 
+
