@@ -4,6 +4,6 @@ $TTL 86400
 tcp.moe. 86400 IN SOA ns.arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
 tcp.moe. 86400 IN NS ns.arg.vc.
 tcp.moe. 86400 IN NS ns2.arg.vc.
-tcp.moe. 3600 IN A 122.30.32.38
+tcp.moe. 3600 IN A 123.218.11.44
 www.tcp.moe. 86400 IN A 127.0.0.1
 
