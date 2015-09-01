@@ -6,13 +6,13 @@ arg.vc. 86400 IN NS ns.arg.vc.
 arg.vc. 86400 IN NS ns2.arg.vc.
 ns.arg.vc. 86400 IN A 133.242.233.252
 ns2.arg.vc. 86400 IN A 133.242.233.252
-arg.vc. 3600 IN A 114.146.57.86
-www.arg.vc. 86400 IN A 114.146.57.86
+arg.vc. 3600 IN A 122.30.39.196
+www.arg.vc. 86400 IN A 122.30.39.196
 ;server
-srv001.arg.vc. 3600 IN A 114.146.57.86
+srv001.arg.vc. 3600 IN A 122.30.39.196
 srv002.arg.vc. 3600 IN A 133.242.233.252
 ;dokku
-;*.dokku.arg.vc.  3600 IN A 114.146.57.86
+;*.dokku.arg.vc.  3600 IN A 122.30.39.196
 ;cname
 srv01.arg.vc. 86400 IN CNAME srv001.arg.vc.
 srv02.arg.vc. 86400 IN CNAME srv002.arg.vc.
