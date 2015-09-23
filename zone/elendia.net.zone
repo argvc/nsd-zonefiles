@@ -4,7 +4,7 @@ $TTL 86400
 elendia.net. 86400 IN SOA ns.arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
 elendia.net. 86400 IN NS ns.arg.vc.
 elendia.net. 86400 IN NS ns2.arg.vc.
-elendia.net. 3600 IN A 127.0.0.1
-www.elendia.net. 86400 IN A 127.0.0.1
+elendia.net. 3600 IN A 114.146.63.114
+www.elendia.net. 86400 IN A 114.146.63.114
 blog.elendia.net. 86400 IN CNAME elendia.net.
 img.elendia.net. 86400 IN CNAME elendia.net.
