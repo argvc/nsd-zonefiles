@@ -1,0 +1,6 @@
+$ORIGIN naishinkai.info.
+$TTL 86400
+;meta
+naishinkai.info. 86400 IN SOA ns.arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
+naishinkai.info. 86400 IN NS ns.arg.vc.
+naishinkai.info. 86400 IN NS ns2.arg.vc.
