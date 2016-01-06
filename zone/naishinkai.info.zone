@@ -4,5 +4,5 @@ $TTL 86400
 naishinkai.info. 86400 IN SOA ns.arg.vc. info.thun.ws. 2014102101 3600 900 604800 300
 naishinkai.info. 86400 IN NS ns.arg.vc.
 naishinkai.info. 86400 IN NS ns2.arg.vc.
-naishinkai.info. 3600 IN A 114.146.57.102
-www.naishinkai.info. 86400 IN A 114.146.57.102
+naishinkai.info. 3600 IN A 153.169.70.19
+www.naishinkai.info. 86400 IN A 153.169.70.19
