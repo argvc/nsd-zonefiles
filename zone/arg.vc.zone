@@ -13,6 +13,8 @@ srv001.arg.vc. 3600 IN A 153.169.70.19
 srv002.arg.vc. 3600 IN A 133.242.233.252
 ;dokku
 ;*.dokku.arg.vc.  3600 IN A 153.169.70.19
+;devlop
+*.app.arg.vc. 86400 IN CNAME srv001.arg.vc.
 ;cname
 srv01.arg.vc. 86400 IN CNAME srv001.arg.vc.
 srv02.arg.vc. 86400 IN CNAME srv002.arg.vc.
