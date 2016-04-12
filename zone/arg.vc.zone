@@ -29,6 +29,7 @@ docs.arg.vc. 86400 IN CNAME srv001.arg.vc.
 irc.arg.vc. 86400 IN CNAME srv001.arg.vc.
 gitlab.arg.vc. 86400 IN CNAME srv001.arg.vc.
 horizon.arg.vc. 86400 IN CNAME srv001.arg.vc.
+9cumber.arg.vc. 86400 IN CNAME srv001.arg.vc.
 ;mail
 @ IN MX 1 ASPMX.L.GOOGLE.COM.
 @ IN MX 5 ALT1.ASPMX.L.GOOGLE.COM. 
