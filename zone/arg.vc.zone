@@ -23,6 +23,7 @@ push6.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
 push3.arg.vc. 86400 IN CNAME g006.globalnet-ex.com.
 push2.arg.vc. 86400 IN CNAME g006.globalnet-ex.com.
 push4.arg.vc. 86400 IN CNAME g006.globalnet-ex.com.
+push10.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
 ;service
 p.arg.vc. 86400 IN CNAME srv001.arg.vc.
 wiki.arg.vc. 86400 IN CNAME srv001.arg.vc.
