@@ -39,4 +39,6 @@ horizon.arg.vc. 86400 IN CNAME srv001.arg.vc.
 @ IN MX 5 ALT2.ASPMX.L.GOOGLE.COM. 
 @ IN MX 10 ASPMX2.GOOGLEMAIL.COM. 
 @ IN MX 10 ASPMX3.GOOGLEMAIL.COM. 
+ctf4b IN MX 1 local.arg.vc.
+local.arg.vc. 86500 IN A 192.168.100.2
 
