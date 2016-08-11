@@ -11,20 +11,12 @@ www.arg.vc. 86400 IN A 153.134.128.145
 ;server
 srv001.arg.vc. 3600 IN A 153.134.128.145
 srv002.arg.vc. 3600 IN A 160.16.57.75
-;dokku
-;*.dokku.arg.vc.  3600 IN A 153.134.128.145
-;devlop
-*.app.arg.vc. 86400 IN CNAME srv001.arg.vc.
 ;cname
 srv01.arg.vc. 86400 IN CNAME srv001.arg.vc.
 srv02.arg.vc. 86400 IN CNAME srv002.arg.vc.
 push.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
 push6.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
-push3.arg.vc. 86400 IN CNAME g006.globalnet-ex.com.
-push2.arg.vc. 86400 IN CNAME g006.globalnet-ex.com.
-push4.arg.vc. 86400 IN CNAME g006.globalnet-ex.com.
 push10.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
-push10.zone.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
 ;service
 p.arg.vc. 86400 IN CNAME srv001.arg.vc.
 wiki.arg.vc. 86400 IN CNAME srv001.arg.vc.
