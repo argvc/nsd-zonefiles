@@ -4,13 +4,13 @@ $TTL 86400
 arg.vc. 86400 IN SOA ns.arg.vc. info.thun.ws. 2015021805 3600 900 604800 300
 arg.vc. 86400 IN NS ns.arg.vc.
 arg.vc. 86400 IN NS ns2.arg.vc.
-ns.arg.vc. 86400 IN A 133.242.233.252
-ns2.arg.vc. 86400 IN A 133.242.233.252
+ns.arg.vc. 86400 IN A 160.16.57.75
+ns2.arg.vc. 86400 IN A 160.16.57.75
 arg.vc. 3600 IN A 122.30.37.213
 www.arg.vc. 86400 IN A 122.30.37.213
 ;server
 srv001.arg.vc. 3600 IN A 122.30.37.213
-srv002.arg.vc. 3600 IN A 133.242.233.252
+srv002.arg.vc. 3600 IN A 160.16.57.75
 ;dokku
 ;*.dokku.arg.vc.  3600 IN A 122.30.37.213
 ;devlop
@@ -39,6 +39,3 @@ horizon.arg.vc. 86400 IN CNAME srv001.arg.vc.
 @ IN MX 5 ALT2.ASPMX.L.GOOGLE.COM. 
 @ IN MX 10 ASPMX2.GOOGLEMAIL.COM. 
 @ IN MX 10 ASPMX3.GOOGLEMAIL.COM. 
-ctf4b IN MX 1 local.arg.vc.
-local.arg.vc. 86500 IN A 192.168.100.2
-
