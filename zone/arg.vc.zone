@@ -11,12 +11,17 @@ www.arg.vc. 86400 IN A 123.218.42.19
 ;server
 srv001.arg.vc. 3600 IN A 123.218.42.19
 srv002.arg.vc. 3600 IN A 160.16.57.75
+srv003.arg.vc. 3600 IN A 133.242.255.164
+srv004.arg.vc. 3600 IN A 153.127.199.242
 ;cname
 srv01.arg.vc. 86400 IN CNAME srv001.arg.vc.
 srv02.arg.vc. 86400 IN CNAME srv002.arg.vc.
-push.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
-push6.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
-push10.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
+srv03.arg.vc. 86400 IN CNAME srv003.arg.vc.
+srv04.arg.vc. 86400 IN CNAME srv004.arg.vc.
+srv1.arg.vc. 86400 IN CNAME srv001.arg.vc.
+srv2.arg.vc. 86400 IN CNAME srv002.arg.vc.
+srv3.arg.vc. 86400 IN CNAME srv003.arg.vc.
+srv4.arg.vc. 86400 IN CNAME srv003.arg.vc.
 ;service
 p.arg.vc. 86400 IN CNAME srv001.arg.vc.
 wiki.arg.vc. 86400 IN CNAME srv001.arg.vc.
@@ -24,10 +29,14 @@ docs.arg.vc. 86400 IN CNAME srv001.arg.vc.
 irc.arg.vc. 86400 IN CNAME srv001.arg.vc.
 gitlab.arg.vc. 86400 IN CNAME srv001.arg.vc.
 horizon.arg.vc. 86400 IN CNAME srv001.arg.vc.
-9cumber.arg.vc. 86400 IN CNAME srv001.arg.vc.
+9cumber.arg.vc. 86400 IN A 133.242.255.166
 ;mail
 @ IN MX 1 ASPMX.L.GOOGLE.COM.
 @ IN MX 5 ALT1.ASPMX.L.GOOGLE.COM. 
 @ IN MX 5 ALT2.ASPMX.L.GOOGLE.COM. 
 @ IN MX 10 ASPMX2.GOOGLEMAIL.COM. 
 @ IN MX 10 ASPMX3.GOOGLEMAIL.COM. 
+;push
+push.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
+push6.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
+push10.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
