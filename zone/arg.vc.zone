@@ -6,12 +6,12 @@ arg.vc. 86400 IN NS ns.arg.vc.
 arg.vc. 86400 IN NS ns2.arg.vc.
 ns.arg.vc. 86400 IN A 160.16.57.75
 ns2.arg.vc. 86400 IN A 160.16.57.75
-arg.vc. 3600 IN A 60.37.154.113
-www.arg.vc. 86400 IN A 60.37.154.113
+arg.vc. 3600 IN A 114.146.59.34
+www.arg.vc. 86400 IN A 114.146.59.34
 ;server
-srv001.arg.vc. 3600 IN A 60.37.154.113
+srv001.arg.vc. 3600 IN A 114.146.59.34
 srv002.arg.vc. 3600 IN A 160.16.57.75
-srv003.arg.vc. 3600 IN A 60.37.154.113
+srv003.arg.vc. 3600 IN A 114.146.59.34
 srv004.arg.vc. 3600 IN A 153.127.199.242
 ;cname
 srv01.arg.vc. 86400 IN CNAME srv001.arg.vc.
