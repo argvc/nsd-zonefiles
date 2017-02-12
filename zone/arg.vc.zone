@@ -40,3 +40,8 @@ horizon.arg.vc. 86400 IN CNAME srv001.arg.vc.
 push.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
 push6.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
 push10.arg.vc. 86400 IN CNAME aldebaran.push7.jp.
+;lab
+lab.arg.vc. 86400 IN CNAME srv001.arg.vc.
+lab2.arg.vc. 86400 IN CNAME srv001.arg.vc.
+lab3.arg.vc. 86400 IN CNAME srv001.arg.vc.
+lab4.arg.vc. 86400 IN CNAME srv001.arg.vc.
